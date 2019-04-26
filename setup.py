@@ -22,10 +22,9 @@ setuptools.setup(
     author_email="ishanu@uchicago.edu",
     description="Pipeline for autism prediction.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://github.com/zeroknowledgediscovery/",
     packages=setuptools.find_packages(),
-    include_package_data=True,
     # package_data={
     #     "": ["*.dat"]
     # },
@@ -36,10 +35,12 @@ setuptools.setup(
         "matplotlib>=3.0.2"
     ],
     classifiers=[\
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        'Development Status :: 4 - Beta',
-        "Intended Audience :: Developers",
-        "Intended Audience :: Science/Research",
-        "Topic :: Scientific/Engineering :: Medical Science Apps."]
-)
+    'Development Status :: 4 - Beta',
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries",
+    "License :: OSI Approved :: MIT License",
+                 "Programming Language :: Python :: 3"],
+    include_package_data=True
+ )
