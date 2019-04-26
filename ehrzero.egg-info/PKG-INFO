@@ -1,15 +1,48 @@
 Metadata-Version: 2.1
 Name: ehrzero
-Version: 1.0.9
+Version: 1.0.10
 Summary: Pipeline for autism prediction.
 Home-page: https://github.com/zeroknowledgediscovery/
 Author: Ishanu Chattopadhyay, Dymtro Onishchenko
 Author-email: ishanu@uchicago.edu
 License: UNKNOWN
-Description: # ZeRO: Zero-Knowledge Risk Oracle" 
+Description: ===============
+        ehrzero
+        ===============
+        
+        .. figure:: https://pypistats.com/badge/cynet.png
+           :alt: cynet PyPI Downloads
+        
+        .. image:: http://zed.uchicago.edu/logo/logozed1.png
+           :height: 400px
+           :scale: 50 %
+           :alt: alternate text
+           :align: center
+        
+        
+        .. class:: no-web no-pdf
+        
+        :Info: Zero-Knowledge Risk Oracle
+        :Author: ZeD@UChicago <zed.uchicago.edu>
+        :Description: Estimation of the risk of future diagnoses of
+        	      neuropsychiatric disorders (particulalrly autism) in early childhood,
+        	      based on the diagnostic codes recorded during
+        	      doctor visits. The prediction pipeline is based on
+        	      inferring optimal stochastic generators for diagnostic code sequences, and detecting subtle deviations that drive up risk of
+        	      an eventual neuropsychiatric diagnoses. The out-of-sample
+        	      AUC score on the Truven dataset of insurance claims (over 5M children) is just over 80%.
+        
+        
+        **Usage:**
+        
+        .. code-block::
+        
+            from ehrzero import ehrzero
+            ehr.predict_with_confidence(SOURCE,n_first_weeks)
+        
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: POSIX :: LINUX
+Classifier: Operating System :: POSIX :: Linux
 Description-Content-Type: text/markdown
