@@ -41,6 +41,7 @@ setuptools.setup(
         'Development Status :: 4 - Beta',
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
-        "Topic :: Scientific/Engineering :: Medical Science Apps."
+        "Topic :: Scientific/Engineering :: Medical Science Apps.",
+        "Topic :: Scientific/Engineering :: Information Analysis"
     ],
 )
