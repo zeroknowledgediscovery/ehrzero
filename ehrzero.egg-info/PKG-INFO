@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: ehrzero
-Version: 1.0.7
+Version: 1.0.8
 Summary: Pipeline for autism prediction.
-Home-page: http://pypi.python.org/pypi/ehrzero/
+Home-page: https://github.com/zeroknowledgediscovery/
 Author: Ishanu Chattopadhyay, Dymtro Onishchenko
 Author-email: ishanu@uchicago.edu
 License: UNKNOWN
@@ -11,5 +11,5 @@ Description: # ZeRO: Zero-Knowledge Risk Oracle"
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
+Classifier: Operating System :: linux
 Description-Content-Type: text/markdown
