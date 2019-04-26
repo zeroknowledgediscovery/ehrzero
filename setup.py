@@ -1,6 +1,7 @@
-import setuptools
+from setuptools import setup
 from codecs import open
 from os import path
+# import subprocess as sp
 import warnings
 import glob
 
@@ -11,20 +12,20 @@ with open("version.py") as fp:
 here = path.abspath(path.dirname(__file__))
 
 
-# Get the long description from the relevant file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+with open("README.rst", "r") as fh:
+    long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="ehrzero",
     version = str(version['__version__']),
     author='Ishanu Chattopadhyay, Dymtro Onishchenko',
     author_email="ishanu@uchicago.edu",
-    description="Pipeline for autism prediction.",
+    description="Zero-Knowledge Risk Oracle for predictive diagnoses from spare  electronic health records",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="https://github.com/zeroknowledgediscovery/",
+    url="htp://zed.uchicago.edu",
     packages=setuptools.find_packages(),
+    include_package_data=True,
     # package_data={
     #     "": ["*.dat"]
     # },
@@ -33,14 +34,11 @@ setuptools.setup(
         "scikit-learn>=0.20.3",
         "lightgbm>=2.2.3",
         "matplotlib>=3.0.2"
+
     ],
-    classifiers=[\
-    'Development Status :: 4 - Beta',
-    "Intended Audience :: Developers",
-    "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering :: Information Analysis",
-    "Topic :: Software Development :: Libraries",
-    "License :: OSI Approved :: MIT License",
-                 "Programming Language :: Python :: 3"],
-    include_package_data=True
- )
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+)

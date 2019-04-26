@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ehrzero
-Version: 1.0.16
+Version: 1.0.17
 Summary: Pipeline for autism prediction.
 Home-page: https://github.com/zeroknowledgediscovery/
 Author: Ishanu Chattopadhyay, Dymtro Onishchenko
@@ -42,10 +42,11 @@ Description: ===============
         
         
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
 Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: Developers
 Classifier: Intended Audience :: Science/Research
-Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
-Description-Content-Type: text/markdown
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
