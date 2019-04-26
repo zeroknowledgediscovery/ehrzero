@@ -35,12 +35,11 @@ setuptools.setup(
         "lightgbm>=2.2.3",
         "matplotlib>=3.0.2"
     ],
-    classifiers=[
+    classifiers=[\
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         'Development Status :: 4 - Beta',
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
-        "Topic :: Scientific/Engineering :: Medical Science Apps."
-    ]
+        "Topic :: Scientific/Engineering :: Medical Science Apps."]
 )
