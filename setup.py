@@ -24,7 +24,7 @@ setup(
     description="Zero-Knowledge Risk Oracle for predictive diagnoses from spare  electronic health records",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="htp://zed.uchicago.edu",
+    url="http://zed.uchicago.edu/",
     packages=setuptools.find_packages(),
     include_package_data=True,
     # package_data={

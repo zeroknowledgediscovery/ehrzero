@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: ehrzero
-Version: 1.0.19
+Version: 1.0.21
 Summary: Zero-Knowledge Risk Oracle for predictive diagnoses from spare  electronic health records
-Home-page: htp://zed.uchicago.edu
+Home-page: http://zed.uchicago.edu/
 Author: Ishanu Chattopadhyay, Dymtro Onishchenko
 Author-email: ishanu@uchicago.edu
 License: UNKNOWN
