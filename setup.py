@@ -19,9 +19,9 @@ with open("README.rst", "r") as fh:
 setup(
     name="ehrzero",
     version = str(version['__version__']),
-    author='Ishanu Chattopadhyay, Dymtro Onishchenko',
+    author='Dymtro Onishchenko, Ishanu Chattopadhyay ',
     author_email="ishanu@uchicago.edu",
-    description="Zero-Knowledge Risk Oracle for predictive diagnoses from spare  electronic health records",
+    description="Zero-Knowledge Risk Oracle for predictive diagnoses of childhood neuropsychiatric disorders from sparse  electronic health records",
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url="http://zed.uchicago.edu/",
