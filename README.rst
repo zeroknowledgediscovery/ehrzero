@@ -2,7 +2,7 @@
 ehrzero
 ===============
 
-.. figure:: https://pypistats.com/badge/ehrzero.png
+.. figure:: https://badge.fury.io/py/ehrzero.svg
    :alt: ehrzero PyPI Downloads
 
 .. image:: http://zed.uchicago.edu/logo/logozed1.png
