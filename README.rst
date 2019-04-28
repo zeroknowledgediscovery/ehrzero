@@ -2,8 +2,14 @@
 ehrzero
 ===============
 
-.. figure:: https://badge.fury.io/py/ehrzero.svg
+.. figure:: https://img.shields.io/pypi/dm/ehrzero.svg?style=plastic
    :alt: ehrzero PyPI Downloads
+.. figure:: https://img.shields.io/pypi/v/ehrzero.svg
+   :alt: ehrzero version
+.. figure:: https://img.shields.io/pypi/v/ehrzero.svg
+   :alt: ehrzero License
+
+	 
 
 .. image:: http://zed.uchicago.edu/logo/logozed1.png
    :height: 400px
