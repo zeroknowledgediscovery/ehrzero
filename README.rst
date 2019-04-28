@@ -6,8 +6,6 @@ ehrzero
    :alt: ehrzero PyPI Downloads
 .. figure:: https://img.shields.io/pypi/v/ehrzero.svg
    :alt: ehrzero version
-.. figure:: https://img.shields.io/pypi/v/ehrzero.svg
-   :alt: ehrzero License
 
 	 
 

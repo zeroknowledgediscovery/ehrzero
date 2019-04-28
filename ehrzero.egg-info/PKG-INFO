@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ehrzero
-Version: 1.0.25
+Version: 1.0.26
 Summary: Zero-Knowledge Risk Oracle for predictive diagnoses of childhood neuropsychiatric disorders from sparse  electronic health records
 Home-page: http://zed.uchicago.edu/
 Author: Dymtro Onishchenko, Ishanu Chattopadhyay 
@@ -10,8 +10,14 @@ Description: ===============
         ehrzero
         ===============
         
-        .. figure:: https://badge.fury.io/py/ehrzero.svg
+        .. figure:: https://img.shields.io/pypi/dm/ehrzero.svg?style=plastic
            :alt: ehrzero PyPI Downloads
+        .. figure:: https://img.shields.io/pypi/v/ehrzero.svg
+           :alt: ehrzero version
+        .. figure:: https://img.shields.io/pypi/v/ehrzero.svg
+           :alt: ehrzero License
+        
+        	 
         
         .. image:: http://zed.uchicago.edu/logo/logozed1.png
            :height: 400px
