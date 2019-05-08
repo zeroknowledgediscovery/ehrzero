@@ -1,4 +1,4 @@
-include version.py
+include *.py
 include *.txt
 recursive-include docs *.txt
 recursive-include ehrzero/ *
