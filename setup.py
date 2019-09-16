@@ -32,7 +32,7 @@ setup(
     # },
     install_requires=[
         "pandas>=0.23.4",
-        "scikit-learn>=0.20.3",
+        "scikit-learn==0.20.4",
         "lightgbm>=2.2.3",
         "matplotlib>=3.0.2"
 

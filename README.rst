@@ -39,3 +39,17 @@ ehrzero
     from ehrzero import ehrzero
     ehr.predict_with_confidence(SOURCE,n_first_weeks)
 
+**Installation**
+
+.. code-block::
+   pip3 install ehrzero --user --upgrade
+
+**EHR data format**
+
+Diagnostic data stored in text file, one line per patient as follows: patient id, gender and list of space-separated, comma-delineated diagnosis records, all separated by spaces. Each diagnosis record consists of the week since the start of observation, followed by comma and the ICD-9 code of the diagnosis. 
+
+Example of a patient line:
+
+.. code-block::
+
+   Lorax,M 5,277.03 10,611.79 18,057.8 58,157.8 78,057.8 108,057.8 128,057.8 148,057.8
