@@ -67,5 +67,5 @@ Once ehrzero package is installed, locate its installation directory and go to t
 
 .. code-block::
 
-python zero.py -data tests/exD1.dx  -n 100 200 300 
+   python zero.py -data tests/exD1.dx  -n 100 200 300 
 
