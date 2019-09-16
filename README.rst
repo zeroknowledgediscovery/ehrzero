@@ -78,11 +78,22 @@ The predict_with_confidence function returns the predicted risk of autism for ea
 				       n_first_weeks=weeks)
 					
 
+
+				       
 **Command Line Execution**
 
-Once ehrzero package is installed, locate its installation directory and go to the  ehrzero/example directory. Select one of the  files in ehrzero/example/tests, e.g., exD1.dx  as input and run zero.py on command line:
+
+A commandline tool *zero.py* is included in the package.
+
+Invoking the tool with examples of diagnostic history
+included in the package may be done as follows:
 
 .. code-block::
 
-   python zero.py -data tests/exD1.dx  -n 100 200 300 
+   python zero.py -data ehrzero/example/tests/exD1.dx  -n 100 200 300 
+
+   patient_id week risk relative_risk confidence
+   A032532061 150 0.019578 1.126543 98.86
+   A032532061 175 0.058364 3.358280 99.93
+   A032532061 200 0.031544 1.815065 99.56
 
