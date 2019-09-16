@@ -42,6 +42,7 @@ ehrzero
 **Installation**
 
 .. code-block::
+   
    pip3 install ehrzero --user --upgrade
 
 **EHR data format**
@@ -53,3 +54,18 @@ Example of a patient line:
 .. code-block::
 
    Lorax,M 5,277.03 10,611.79 18,057.8 58,157.8 78,057.8 108,057.8 128,057.8 148,057.8
+
+**Risk Estimation Example**
+
+With properly formatted  patient diagnostic history, we use  function \texttt{predict\_with\_confidence} and specify the data filepath  and  the weeks of age at which  we want to estimate risk. Optionally, we  may also specify the separator and delimiter for the patients within file (space and comma are default).
+
+The predict_with_confidence function returns the predicted risk of autism for every patient in the input file.
+
+**Command Line Execution**
+
+Once ehrzero package is installed, locate its installation directory and go to the  ehrzero/example directory. Select one of the  files in ehrzero/example/tests, e.g., exD1.dx  as input and run zero.py on command line:
+
+.. code-block::
+
+python zero.py -data tests/exD1.dx  -n 100 200 300 
+
