@@ -85,14 +85,18 @@ The predict_with_confidence function returns the predicted risk of autism for ea
 
 A commandline tool *zero.py* is included in the package.
 
+It is located in the <installation_directory>/ehrzero/example. Typically, the default `installation_directory` should be `~/.local/lib/python3.6/site-packages/`
+
 Invoking the tool with examples of diagnostic history
-included in the package may be done as follows:
+included in the package may be done as follows (adjust for correct python version, and installation_directory):
 
 .. code-block::
 
-   python zero.py -data ehrzero/example/tests/exD1.dx  -n 100 200 300 
+   cd ~/.local/lib/python3.6/site-packages/ehrzero/example
+   python zero.py -data tests/exD1.dx  -n 145 148 150 175 200  
 
-   patient_id week risk relative_risk confidence
+   A032532061 145 0.015349 0.883183 18.33
+   A032532061 148 0.017537 1.009113 98.61
    A032532061 150 0.019578 1.126543 98.86
    A032532061 175 0.058364 3.358280 99.93
    A032532061 200 0.031544 1.815065 99.56
