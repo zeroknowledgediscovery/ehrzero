@@ -36,8 +36,15 @@ ehrzero
 
 .. code-block::
 
-    from ehrzero import ehrzero
-    ehr.predict_with_confidence(SOURCE,n_first_weeks)
+    from ehrzero import ehrzero as ehr
+    source = './src.dat'
+    outfile = './out.dat'
+    weeks = [100,200]
+    
+    risks = ehr.predict_with_confidence(source,outfile,
+                                        separator=',',delimitor=' ',
+					n_first_weeks=weeks)
+					
 
 **Installation**
 
@@ -55,11 +62,23 @@ Example of a patient line:
 
    Lorax,M 5,277.03 10,611.79 18,057.8 58,157.8 78,057.8 108,057.8 128,057.8 148,057.8
 
-**Risk Estimation Example**
+**Risk Estimation Example As Python Script**
 
-With properly formatted  patient diagnostic history, we use  function \texttt{predict\_with\_confidence} and specify the data filepath  and  the weeks of age at which  we want to estimate risk. Optionally, we  may also specify the separator and delimiter for the patients within file (space and comma are default).
+With properly formatted  patient diagnostic history, we use  function *predict_with_confidence* and specify the data filepath  and  the weeks of age at which  we want to estimate risk. Optionally, we  may also specify the separator (separating code and week, see example above) and delimitor (separating two code-week pairs, see example above)  for the diganostic records within file (space and comma are default).
 
-The predict_with_confidence function returns the predicted risk of autism for every patient in the input file.
+The predict_with_confidence function returns the predicted risk of autism for each patient for each requested week.
+
+.. code-block::
+
+   from ehrzero import ehrzero as ehr
+   source = './src.dat'
+   outfile = './out.dat'
+   weeks = [100,200]
+    
+   risks = ehr.predict_with_confidence(source,outfile,
+                                        separator=',',delimitor=' ',
+					n_first_weeks=weeks)
+					
 
 **Command Line Execution**
 
