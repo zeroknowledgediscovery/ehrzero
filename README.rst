@@ -93,11 +93,17 @@ included in the package may be done as follows (adjust for correct python versio
 .. code-block::
 
    cd ~/.local/lib/python3.6/site-packages/ehrzero/example
-   python zero.py -data tests/exD1.dx  -n 145 148 150 175 200  
+   python zero.py -data tests/exD1.dx  -n 145 148 150 165 170 180  
 
    A032532061 145 0.015349 0.883183 18.33
    A032532061 148 0.017537 1.009113 98.61
    A032532061 150 0.019578 1.126543 98.86
-   A032532061 175 0.058364 3.358280 99.93
-   A032532061 200 0.031544 1.815065 99.56
+   A032532061 165 0.019506 1.122396 98.85
+   A032532061 170 0.039018 2.245151 99.74
+   A032532061 180 0.057424 3.304231 99.92
 
+.. image:: risk.png
+   :height: 200px
+   :scale: 50 %
+   :alt: alternate text
+   :align: center
