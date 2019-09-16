@@ -103,7 +103,7 @@ included in the package may be done as follows (adjust for correct python versio
    A032532061 180 0.057424 3.304231 99.92
 
 .. image:: risk.png
-   :height: 100px
-   :scale: 20 %
+   :height: 20px
+   :scale: 10 %
    :alt: alternate text
    :align: center
