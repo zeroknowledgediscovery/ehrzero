@@ -57,7 +57,7 @@ Example of a diagnostic record for Lorax, male:
 .. code-block::
 
    Lorax,M 5,277.03 10,611.79 18,057.8 58,157.8 78,057.8 108,057.8 128,057.8 148,057.8
-   <patient_id,gender> <code,week> <code,week> ...
+   <patient_id,gender> <week,code> <week,code> ...
 
    
 **Risk Estimation Example As Python Script**
